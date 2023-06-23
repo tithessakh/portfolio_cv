@@ -11,7 +11,6 @@
     <!--CSS-->
     <link href="./css/style.css" rel="stylesheet">
     <!--JavaScript-->
-    <script src="./script/script.js"></script>
     <script src="https://kit.fontawesome.com/8dbd5a109e.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -40,10 +39,10 @@
             <div class="navbar">
                 <div class="left-nav">
                     <ul class="tabs">
-                        <li class="tab homebutton"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                        <li class="tab"><a href="#resume">RESUME</a></li>
-                        <li class="tab"><a href="#portfolio">PORTFOLIO</a></li>
-                        <li onmouseover="hide" class="tab tabpanel" hover><a href="#contact">CONTACT</a></li>
+                        <li class="tab homebutton" onclick="hideMe(0)"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                        <li class="tab" onclick="hideMe(1)"><a href="#resume">RESUME</a></li>
+                        <li class="tab" onclick="hideMe(2)"><a href="#portfolio">PORTFOLIO</a></li>
+                        <li class="tab" onclick="hideMe(3)"><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
                 <div class="right-nav">
@@ -57,23 +56,23 @@
             </div>
             <!--main content-->
             <div class="tab-content">
-                <div class="about-me tabcontent">
+                <div class="tabcontent" id="about-me">
                     <h2>About me</h2>
                     <p>Started earnest brother believe an exposed so. Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate.</p>
                     <p>Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat. Her bachelor honoured perceive securing but desirous ham required. Questions deficient acuteness to engrossed as. Entirely led ten humoured greatest and yourself. Besides ye country on observe. She continue appetite endeavor she judgment interest the met. For she surrounded motionless fat resolution may.</p>
                 </div>
-                <div class="resume tabcontent">
+                <div class="tabcontent">
                     <h2>Resume</h2>
                     <p>Started earnest brother believe an exposed so. Me he believing daughters if forfeited at furniture. Age again and stuff downs spoke. Late hour new nay able fat each sell. Nor themselves age introduced frequently use unsatiable devonshire get. They why quit gay cold rose deal park. One same they four did ask busy. Reserved opinions fat him nay position. Breakfast as zealously incommode do agreeable furniture. One too nay led fanny allow plate.</p>
                     <p>Quick six blind smart out burst. Perfectly on furniture dejection determine my depending an to. Add short water court fat. Her bachelor honoured perceive securing but desirous ham required. Questions deficient acuteness to engrossed as. Entirely led ten humoured greatest and yourself. Besides ye country on observe. She continue appetite endeavor she judgment interest the met. For she surrounded motionless fat resolution may.</p>
                 </div>    
-                <div class="portfolio tabcontent">
+                <div class="tabcontent">
                     <h2>Portfolio</h2>
                     <p>mpla mpla</p>
                 </div>
-                <div class="contact tabcontent">
+                <div class="tabcontent">
                     <h2>Contact</h2>
-                    <p>mpla3 mpla3</p>
+                    <p>This is a test contact page</p>
                 </div>
             </div>
         </div>
@@ -82,5 +81,6 @@
 
         </div>
     </div>
+    <script src="./script/script.js"></script>
 </body>
 </html>

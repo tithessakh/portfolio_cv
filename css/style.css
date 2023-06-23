@@ -7,6 +7,10 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     background: transparent;
 }
 
+h2{
+    font-size: 1.2rem;
+}
+
 body{
     background-image: url(../images/bg.svg);
     font-size: 14px;
@@ -44,7 +48,7 @@ body{
 }
 
 .profile-pic img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .info{
@@ -75,7 +79,7 @@ body{
     background: white;
     border: 2px solid #ffc500;
     border-radius: 50px;
-    margin-left: -31.5px;
+    margin-left: -23.5px;
     width: 10px;
     height: 10px;
     font-size:10px;
@@ -93,7 +97,7 @@ body{
     cursor: pointer;
 }
 
-.download-cv span{
+.download-cv span {
     position:relative;
     bottom: 4px;
     float: right;
@@ -128,9 +132,8 @@ body{
 }
 
 li{
-    padding: 0 24px;
+    padding: 0 1rem;
     list-style: none;
-    transition: all ease 0.4s;
 }
 
 .homebutton{
@@ -138,14 +141,73 @@ li{
     line-height: 50px;
     height:100%;
     border-radius: 10px 0 0 10px;
+    padding: 0 1.6rem;
+    text-align: center;
 }
+
+.homebutton:hover{
+    background: #ffb100;
+    color: black;
+    cursor: pointer;
+}
+.homebutton a:hover{
+    color:black;
+}
+
 .tabs{
     margin: 0;
     padding: 0;
 }
 
+.tab a:hover{
+    color: #ffc500;
+    transition: all ease 0.2s;
+}
+
+
 a{
     color: black;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
+
+#about-me{
+    display: block;
+}
+
+.tabcontent{
+    display: none;
+}
+
+.mail-me{
+    background: #ffc500;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.mail-me:hover{
+    color:black;
+}
+
+.mail-me i{
+    background: white;
+    margin-left: 5px;
+    padding: 7px;
+    border-radius: 50px;
+
+}
+
+.tab-content h2{
+    text-decoration: underline 3px #ffb100;
+}
+
+.tab-content{
+    margin: 2rem;
+    text-align: justify;
+    letter-spacing: 0.8px;
+}
+
+.tab-content p{
+    padding: 0.8rem 0;
+}
+
+
