@@ -29,7 +29,7 @@ body{
 
 .myinfo{
     background-color: white;
-    border: 1px solid black;
+    box-shadow: 1px 1px 10px 1px lightgray;
     border-radius: 10px;
 }
 
@@ -108,7 +108,7 @@ body{
 
 .container{
     background-color: white;
-    border: 1px solid blue;
+    box-shadow: 1px 1px 10px 1px lightgray;
     border-radius: 10px;
 }
 
