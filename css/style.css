@@ -207,7 +207,50 @@ a{
 }
 
 .tab-content p{
-    padding: 0.8rem 0;
+    padding-top: 0.8rem;
 }
 
+#company-title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
+#date-period{
+    float:right;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+}
+#working-role{
+    margin-top: -1rem;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: rgb(0, 81, 255);
+    font-weight: bold;
+}
+.working-role{
+    color:rgb(0, 81, 255);
+    font-weight: bold;
+}
+
+#working-role a{
+    color:rgb(0, 81, 255)
+}
+
+#working-role i{
+    margin-left: 0.5rem;
+    color :rgb(0, 81, 255);
+}
+
+.tabcontent li{
+    padding: 0.5rem;
+    list-style-type:circle;
+    margin-left: 2rem
+}
+
+#key-achievements{
+    font-style: italic;
+    font-size: 0.9rem;
+    color: rgb(0, 81, 255);
+    font-weight: bold;
+}
